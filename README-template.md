@@ -65,6 +65,15 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
+How to instantiate a new component from memory ~ you define your functional component and make sure to export it!
+```jsx
+const Card = () => {
+    return <p>I made this change!</p>;
+}
+
+export default Card;
+```
+
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
